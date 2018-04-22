@@ -10,12 +10,12 @@ Note: The code is in prototype phase, illustrating the idea. For details,
 contact the author 
 ## Smart Contract assisted Public Key Infrastructure
 
-###Pre-requisite
+### Pre-requisite
 1. Have etherium(e.g., geth or testrpc client) running in the background. For testing, it is faster to test with testrpc client
 2. Install truffle framework
 
-###To Run and Test
-###To Run
+### To Run and Test
+### To Run
 1. Clone this application directory. This downloads the necessary code and truffle data structure to run this application
 ```
 $ git clone scp
@@ -80,7 +80,7 @@ NodeJs client in `app/javascript/appLoad.js` provides pretty printing for above 
     node appLoad.js
 ```
 
-###Directory Structure
+### Directory Structure
 truffle.js: start script used by truffle
 app/javascripts/appLoad.js: a command line tools for interacting with SmartContract. It also
    performs load testing the smart contracts
