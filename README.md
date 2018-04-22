@@ -81,12 +81,11 @@ NodeJs client in `app/javascript/appLoad.js` provides pretty printing for above 
 ```
 
 ### Directory Structure
-truffle.js: start script used by truffle
-app/javascripts/appLoad.js: a command line tools for interacting with SmartContract. It also
-   performs load testing the smart contracts
-contracts/Migrations.sol: Migration contract for udpating the smart contract
-contracts/TransparentContractCA.sol: Includes two smart contract - ApplicationPolicyPublisher, PolicyContract
-migrations/2_deploy_contracts.js: migration script
+truffle.js: start script used by truffle\
+app/javascripts/appLoad.js: a command line tools for interacting with SmartContract. It also  performs load testing the smart contracts\
+contracts/Migrations.sol: Migration contract for udpating the smart contract\
+contracts/TransparentContractCA.sol: Includes two smart contract - ApplicationPolicyPublisher, PolicyContract\
+migrations/2_deploy_contracts.js: migration script\
 
 ### Contact and License
 
