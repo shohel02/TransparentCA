@@ -8,12 +8,14 @@ specifi browsers.
 
 Note: The code is in prototype phase, illustrating the idea. For details,
 contact the author 
+## Smart Contract assisted Public Key Infrastructure
 
 ###Pre-requisite
 1. Have etherium(e.g., geth or testrpc client) running in the background. For testing, it is faster to test with testrpc client
 2. Install truffle framework
 
 ###To Run and Test
+###To Run
 1. Clone this application directory. This downloads the necessary code and truffle data structure to run this application
 ```
 $ git clone scp
@@ -87,5 +89,4 @@ contracts/TransparentContractCA.sol: Includes two smart contract - ApplicationPo
 migrations/2_deploy_contracts.js: migration script
 
 ### Contact and License
-
 

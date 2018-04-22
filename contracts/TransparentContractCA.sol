@@ -56,6 +56,7 @@ contract PolicyContract{
           //subscribe to application policy. Provide information about policyContract, so application policy can
           //call it later on
           applicationPolicyPublisher.subscribeApplicationPolicy(id, applicationPolicyId, address(this), "public key");
+                     address(this), "public key");
 
           CAtoDomainOwnerPolicyContracts[id].domainToCaPolicyContractRequestId = domainToCaPolicyContractRequestId;
           CAtoDomainOwnerPolicyContracts[id].applicationPolicyId = applicationPolicyId;
