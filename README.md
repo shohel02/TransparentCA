@@ -18,7 +18,7 @@ contact the author
 ### To Run
 1. Clone this application directory. This downloads the necessary code and truffle data structure to run this application
 ```
-$ git clone scp
+$ git clone https://github.com/shohel02/TransparentCA
 ```
 2. Migrate the smart contract to the etherium chain
 ```
